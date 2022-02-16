@@ -35,3 +35,4 @@ func main() {
   fmt.Printf(
     "Got response %d: %s %s\n",
     resp.StatusCode, resp.Proto, string(body))
+}
